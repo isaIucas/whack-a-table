@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Whac-a-mole</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="box">
+      <div>
+        <h3 class="text">Your score:</h3>
+        <h3 class="text" id="score">0</h3>
+
+        <h3 class="text">Time Left:</h3>
+        <h3 class="text" id="time-left">30</h3>
+      </div>
+      <div>
+        <h3 class="vertical_text">Score List:</h3>
+        <h3 class="vertical_text" id="scores">0</h3>
+      </div>
+    </div>
+    <h2 class="text">Table:</h2>
+    <h2 class="text" id="table">0</h2>
+
+    <div class="grid">
+      <div class="table" id="15" square="1"></div>
+      <div class="square_top" id="n" square="2"></div>
+      <div class="square_door" id="n" square="3"></div>
+      <div class="square_door" id="n" square="4"></div>
+      <div class="square_top" id="n" square="5"></div>
+      <div class="square_top" id="n" square="6"></div>
+      <div class="square_top" id="n" square="7"></div>
+      <div class="table" id="1" square="8"></div>
+      <div class="square_left" id="n" square="9"></div>
+      <div class="square" id="n" square="10"></div>
+      <div class="square" id="n" square="11"></div>
+      <div class="square" id="n" square="12"></div>
+      <div class="square" id="n" square="13"></div>
+      <div class="square" id="n" square="14"></div>
+      <div class="square" id="n" square="15"></div>
+      <div class="square_right" id="n" square="16"></div>
+      <div class="table" id="16" square="17"></div>
+      <div class="square" id="n" square="18"></div>
+      <div class="table" id="14A" square="19"></div>
+      <div class="table" id="14B" square="20"></div>
+      <div class="square" id="n" square="21"></div>
+      <div class="table" id="10" square="22"></div>
+      <div class="square" id="n" square="23"></div>
+      <div class="table" id="2" square="24"></div>
+      <div class="square_left" id="n" square="25"></div>
+      <div class="square" id="n" square="26"></div>
+      <div class="square" id="n" square="27"></div>
+      <div class="square" id="n" square="28"></div>
+      <div class="square" id="n" square="29"></div>
+      <div class="square" id="n" square="30"></div>
+      <div class="square" id="n" square="31"></div>
+      <div class="square_right" id="n" square="32"></div>
+      <div class="table" id="17" square="33"></div>
+      <div class="square" id="n" square="34"></div>
+      <div class="table" id="13A" square="35"></div>
+      <div class="table" id="13B" square="36"></div>
+      <div class="square" id="n" square="37"></div>
+      <div class="table" id="9" square="38"></div>
+      <div class="square" id="n" square="39"></div>
+      <div class="table" id="3" square="40"></div>
+      <div class="square_left" id="n" square="41"></div>
+      <div class="square" id="n" square="42"></div>
+      <div class="square" id="n" square="43"></div>
+      <div class="square" id="n" square="44"></div>
+      <div class="square" id="n" square="45"></div>
+      <div class="square" id="n" square="46"></div>
+      <div class="square" id="n" square="47"></div>
+      <div class="square_right" id="n" square="48"></div>
+      <div class="table" id="18" square="49"></div>
+      <div class="square" id="n" square="50"></div>
+      <div class="table" id="12A" square="51"></div>
+      <div class="table" id="12B" square="52"></div>
+      <div class="square" id="n" square="53"></div>
+      <div class="table" id="8" square="54"></div>
+      <div class="square" id="n" square="55"></div>
+      <div class="table" id="4" square="56"></div>
+      <div class="square_left" id="n" square="57"></div>
+      <div class="square" id="n" square="58"></div>
+      <div class="square" id="n" square="59"></div>
+      <div class="square" id="n" square="60"></div>
+      <div class="square" id="n" square="61"></div>
+      <div class="square" id="n" square="62"></div>
+      <div class="square" id="n" square="63"></div>
+      <div class="square_right" id="n" square="64"></div>
+      <div class="table" id="19" square="65"></div>
+      <div class="square" id="n" square="66"></div>
+      <div class="table" id="11A" square="67"></div>
+      <div class="table" id="11B" square="68"></div>
+      <div class="square" id="n" square="69"></div>
+      <div class="table" id="7" square="70"></div>
+      <div class="square" id="n" square="71"></div>
+      <div class="table" id="5" square="72"></div>
+      <div class="square_left" id="n" square="73"></div>
+      <div class="square" id="n" square="74"></div>
+      <div class="square" id="n" square="75"></div>
+      <div class="square" id="n" square="76"></div>
+      <div class="square" id="n" square="77"></div>
+      <div class="square" id="n" square="78"></div>
+      <div class="square" id="n" square="79"></div>
+      <div class="square_right" id="n" square="80"></div>
+      <div class="square_left_top_bottom" id="n" square="81"></div>
+      <div class="square_top_bottom" id="n" square="82"></div>
+      <div class="square_top_bottom_right" id="n" square="83"></div>
+      <div class="square_dotted" id="n" square="84"></div>
+      <div class="square_dotted_bottom" id="n" square="85"></div>
+      <div class="square_dotted_bottom" id="n" square="86"></div>
+      <div class="square_dotted_bottom" id="n" square="87"></div>
+
+      <div class="table" id="6" square="88"></div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
